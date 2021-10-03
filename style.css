@@ -104,7 +104,6 @@
 #how-it-works-img{
     background-image: url("./asset-landingpage1/HowitWorks-header-Web.png");
     height: 208px;
-   
     background-repeat: no-repeat;
     /* display:contents; */
     background-position: center center;
@@ -297,7 +296,6 @@
     #text-2{
         margin-top: 1.8rem;
         font-size: 1.3rem;
-        text-align: center;
     }
 
     #form{
@@ -365,7 +363,7 @@
     .card-1{
         /* flex-wrap: wrap;
         overflow-x: hidden; */
-        width:22.5rem;
+        width:95%;
         padding-left: 1rem;
         margin-bottom: 2rem;
         padding-right:1rem;
@@ -387,6 +385,16 @@
         display:flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    #candidates .images{
+        text-align: center;
+        margin-right:0rem;
+        border:2px solid red;
+    }
+
+    #candidates .images img{
+        width:90%;
     }
 
     #view-more button{
@@ -437,9 +445,6 @@
         width:auto;
         height:auto;
     }
-    
-    
-
 }
 
 

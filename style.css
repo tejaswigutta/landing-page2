@@ -126,7 +126,7 @@
 
 #how-it-works-button button{
     height:4rem;
-    width:24rem;
+    width:30%;
     border-radius: 50px;
     font-size: 1.5rem;
     background-color:orangered;
@@ -181,7 +181,7 @@
 
 #how-to-study-button button{
     height:4rem;
-    width:24rem;
+    width:30%;
     border-radius: 50px;
     font-size: 1.5rem;
     background-color:orangered;
@@ -215,7 +215,7 @@
 
 #view-more button{
     height:4rem;
-    width:24rem;
+    width:30%;
     border-radius: 50px;
     font-size: 1.5rem;
     background-color:blue;
@@ -346,6 +346,10 @@
         margin-top:0rem;
         background-position: center center;
     }
+
+    #how-it-works-button button{
+        width:80%;
+    }
     
     #study-plan{
         padding-top:2rem;
@@ -367,6 +371,10 @@
         padding-right:1rem;
     }
 
+    #how-to-study-button button{
+        width:80%;
+    }
+
     #testimonials h1{
         text-align: center;
         margin-top: 3rem;
@@ -381,6 +389,10 @@
         justify-content: center;
     }
 
+    #view-more button{
+        width:80%;
+    }
+
     #profile-gap-analysis h1{
         text-align: center;
         margin-top: 2rem;
@@ -393,12 +405,15 @@
     }
 
     #analysis-form form input {
-        width:22.5rem;
-        background-color: cornsilk;
+        width:100%;
+    }
+
+    #analysis-form form{
+        width:92%;
     }
     
     #analysis-form form button {
-        width:22.5rem;
+        width:100%;
     }
 
     #analysis-form{

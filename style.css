@@ -78,7 +78,7 @@
 }
 
 .input{
-    width:35rem;
+    width:95%;
     height:3.5rem;
     margin-bottom: 2rem;
     padding:1rem;
@@ -91,7 +91,7 @@
 }
 
 #submit-button{
-    width:35rem;
+    width:95%;
     height:3.5rem;
     border-radius: 50px;
     font-size: 1.5rem;
@@ -237,13 +237,14 @@
     padding-right: 0rem;
 }
 
+
 #analysis-form form{
     padding-top:12rem;
     margin-right:5rem;
 }
 
 #analysis-form form input {
-    width:30rem;
+    width:100%;
 }
 
 #analysis-form form button {
@@ -315,7 +316,7 @@
    
     
     .input{
-        width:20rem;
+        /* width:20rem; */
         height:3.5rem;
         margin-bottom: 2rem;
         padding:1rem;
@@ -324,7 +325,7 @@
     }
 
     #submit-button{
-        width:20rem;
+        /* width:20rem; */
     }
 
     #how-it-works-img{

@@ -390,6 +390,7 @@
 
     #analysis-form form input {
         width:22.5rem;
+        background-color: cornsilk;
     }
     
     #analysis-form form button {

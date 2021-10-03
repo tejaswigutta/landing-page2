@@ -412,6 +412,11 @@
     #footer{
         font-size: 1rem;
     }
+
+    #candidates .images{
+        max-width:100%;
+        height:auto;
+    }
     
     
 

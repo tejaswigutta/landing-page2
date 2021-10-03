@@ -1,0 +1,567 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+#logo{
+    /* background-image: url("./asset-landingpage1/logo-cl\ 1.svg");
+    background-size:contain; */
+    text-align: center;
+}
+
+#logo img{
+    height: 150px;
+    width: 300px;
+}
+
+#gre-intro{
+    background-size: cover;
+    /* padding: 4rem 1.5rem; jash given*/
+    padding: 3rem 1.5rem;
+    background-image:url("./asset-landingpage1/HeroBgWeb.svg") ;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 0.5rem;
+    display:flex;
+    border: 0;
+} 
+
+
+#content{
+  color:white;
+  padding-left: 6rem;
+  width:40%;
+}
+
+#form{
+  width:60%;
+  padding-left:9rem;
+  margin-top: 0.6rem;
+}
+
+#sub-form{
+    padding-left:2rem;
+    padding-top:2rem;
+    background-color: #fafafa;
+    opacity: 0.6;
+}
+
+.text-1{
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+#text-2{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+#text-3{
+    margin-top:3rem;
+}
+
+.text-with-icon{
+    display:flex;
+    margin-bottom: 1rem;
+}
+
+.text-with-icon img{
+    margin-right: 1rem;
+}
+
+.text-with-icon h3{
+    margin-bottom:0.5rem;
+}
+
+.input{
+    width:35rem;
+    height:3.5rem;
+    margin-bottom: 2rem;
+    padding:1rem;
+    font-size:1.2rem;
+    border-color: lightblue;
+}
+
+#actual-form{
+    margin-top:2rem;
+}
+
+#submit-button{
+    width:35rem;
+    height:3.5rem;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    color:white;
+    background-color: orangered;
+    margin-bottom: 2rem;
+    border:none;
+}
+
+#how-it-works-img{
+    background-image: url("./asset-landingpage1/HowitWorks-header-Web.png");
+    height: 208px;
+   
+    background-repeat: no-repeat;
+    /* display:contents; */
+    background-position: center center;
+}
+
+#info-graph{
+    background-image: url("./asset-landingpage1/infograph-web.png");
+    height: 444px;
+    background-repeat: no-repeat;
+    margin-top: 2rem;
+    background-position: center center;
+}
+
+#how-it-works-button{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom:2rem;
+}
+
+#how-it-works-button button{
+    height:4rem;
+    width:24rem;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    background-color:orangered;
+    color:white;
+    border:none;
+}
+
+#study-plan{
+    padding-left: 6rem;
+    background-color: #f2f2f2;
+}
+
+#cards{
+    display:flex;
+    /* justify-content: space-around; */
+    padding-left:0.6rem;
+    margin-bottom: 2rem;
+}
+
+.card-1{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    /* background-color: plum; */
+    padding-left:2rem;
+    padding-top:3rem;
+    margin-right:2rem;
+    width:50rem;
+    background-color: white;
+}
+
+.card-1 img,.card-text-1{
+    margin-bottom: 2rem;
+}
+
+.card-1 p{
+    font-size: 1.1rem;
+}
+
+#text{
+    margin-bottom:2.5rem;
+    margin-top: 2.5rem;
+}
+
+#how-to-study-button{
+    text-align: center;
+    /* margin-top:2rem; */
+    margin-left:0rem;
+    margin-bottom: 2rem;
+    background-color:#f2f2f2 ;
+    padding-bottom:2rem;
+}
+
+#how-to-study-button button{
+    height:4rem;
+    width:24rem;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    background-color:orangered;
+    color:white;
+    border:none;
+}
+
+#testimonials h1{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+#candidates{
+    /* margin-left:6rem; */
+    padding-left:6rem;
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.images{
+    margin-right:1rem;
+    margin-bottom: 1.5rem;
+}
+
+#view-more{
+    text-align: center;
+}
+
+#view-more button{
+    height:4rem;
+    width:24rem;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    background-color:blue;
+    color:white;
+    border:none;
+}
+
+#profile-gap-analysis h1{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 4rem;
+}
+
+#analysis-form{
+    display:flex;
+    margin-top: 3rem;
+    /* justify-content: space-around; */
+    padding-left: 9rem;
+    padding-right: 0rem;
+}
+
+#analysis-form form{
+    padding-top:12rem;
+    margin-right:5rem;
+}
+
+#analysis-form form input {
+    width:30rem;
+}
+
+#analysis-form form button {
+    width:30rem;
+}
+
+#headphones{
+    margin-right:0rem;
+}
+
+#footer{
+    height:6rem;
+    background-color: purple;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+/* mobile view */
+
+ @media (max-width: 570px) { 
+    #gre-intro{
+
+        /* background: no-repeat top, url("https://dripmarketing.s3.ap-south-1.amazonaws.com/gmat-landing-pages/asset-landingpage1-herobg/HeroBgMobile.png"); */
+        background: no-repeat top, url("./asset-landingpage1/HeroBgMobile.png");
+        background-size: cover;
+         display:flex;
+         flex-direction: column;
+         margin-top: 0rem;
+    }
+
+    #content,#form{
+        width:auto;
+    }
+
+    #content{
+        padding-left: 0rem;
+        margin-bottom: 10rem;
+    }
+
+    .text-1{
+        font-size:1.5rem;
+          /* font-weight: bold; */
+        /* text-align: center; */
+          
+    }
+
+    #text-2{
+        margin-top: 1.8rem;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    #form{
+        /* width:auto; */
+        padding-left:0rem;
+        margin-top: 5rem;
+    }
+
+    #sub-form{
+        padding-left:1rem;
+        padding-top:1rem;
+        background-color: #fafafa;
+        opacity: 0.6;
+    }
+
+   
+    
+    .input{
+        width:20rem;
+        height:3.5rem;
+        margin-bottom: 2rem;
+        padding:1rem;
+        font-size:1.2rem;
+        border-color: lightblue;
+    }
+
+    #submit-button{
+        width:20rem;
+    }
+
+    #how-it-works-img{
+        background-image: url("./asset-landingpage1/HowitWorks-header-Mobile.png");
+        /* height: 208px; */
+       
+        background-repeat: no-repeat;
+        /* display:contents; */
+        background-position: center center;
+    }
+    
+    #info-graph{
+        background-image: url("./asset-landingpage1/infograph-mobile.png");
+        height: 1777px;
+        /* width:auto; */
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top:0rem;
+        background-position: center center;
+    }
+    
+    #study-plan{
+        padding-top:2rem;
+        padding-left:1.5rem;
+    }
+
+    #cards{
+        display:flex;
+        flex-direction: column;
+        padding-left: 0rem;
+    }
+
+    .card-1{
+        /* flex-wrap: wrap;
+        overflow-x: hidden; */
+        width:22.5rem;
+        padding-left: 1rem;
+        margin-bottom: 2rem;
+        padding-right:1rem;
+    }
+
+    #testimonials h1{
+        text-align: center;
+        margin-top: 3rem;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    #candidates{
+        padding-left: 1rem;
+    }
+
+    #profile-gap-analysis h1{
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+
+
+    #headphones{
+        display:none;
+    }
+
+    #analysis-form form input {
+        width:22.5rem;
+    }
+    
+    #analysis-form form button {
+        width:22.5rem;
+    }
+
+    #analysis-form{
+        display:flex;
+        margin-top: 3rem;
+        /* justify-content: space-around; */
+        padding-left: 1.5rem;
+        /* padding-right: 1.5rem; */
+    }
+    
+    #analysis-form form{
+        padding-top:4rem;
+        margin-right:0rem;
+    }
+
+    #footer{
+        font-size: 1rem;
+    }
+    
+    
+
+}
+
+
+ /* tab view */
+
+ @media (min-width: 571px) and (max-width: 1100px){
+    #gre-intro{
+        background-image: url("./asset-landingpage1/HeroBgTab.png");
+        margin-top: 0rem;
+        background-size: cover;
+        background-position: top;
+        /* width:auto;  */
+
+    }
+    #content{
+        padding-left: 0rem;
+        width:38%;
+    }
+    .text-1{
+        font-size: 1.4rem;
+    }
+
+    #text-2{
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    #form{
+        width:68%;
+        padding-left:7rem;
+        margin-top: 1rem;
+    }
+
+    #sub-form{
+        /* border:2px solid green; */
+        padding-left:1.5rem;
+        /* padding-top:1rem; */
+        /* background-color: #fafafa;
+        opacity: 0.6; */
+        /* text-align: center; */
+    }
+
+    .input{
+        width:18rem;
+        height:3.5rem;
+        margin-bottom: 2rem;
+        padding:1rem;
+        font-size:1.2rem;
+        border-color: whi
+    }
+    
+    #actual-form{
+        margin-top:2rem;
+    }
+    
+    #submit-button{
+        width:18rem;
+        height:3.5rem;
+        border-radius: 50px;
+        font-size: 1.5rem;
+        color:white;
+        background-color: orangered;
+        margin-bottom: 2rem;
+        border:none;
+    }
+
+    #how-it-works-img{
+        background-image: url("./asset-landingpage1/HowitWorks-header-Tab.png");
+        height: 136px;
+       
+        background-repeat: no-repeat;
+        /* display:contents; */
+        background-position: center center;
+    }
+    
+    #info-graph{
+        background-image: url("./asset-landingpage1/infograph-tab.png");
+        height: 770px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 2rem;
+        background-position: center center;
+    }
+
+    #study-plan{
+        padding-top:2rem;
+        padding-left:1.5rem;
+    }
+
+    #candidates{
+        display:flex;
+        padding-left:0rem;
+        justify-content: center;
+    }
+
+    .images img{
+        width:80%;
+    }
+
+    .images{
+        margin-right:0rem;
+        margin-bottom: 1.5rem;
+        width:50%;
+        text-align: center;
+    }
+
+    /* #profile-gap-analysis h1{
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 3rem;
+    } */
+
+    #analysis-form{
+        display:flex;
+        margin-top: 3rem;
+        /* justify-content: space-around; */
+        padding-left: 9rem;
+        padding-right: 0rem;
+    }
+
+    #analysis-form{
+        display:flex;
+        margin-top: 3rem;
+        /* justify-content: space-around; */
+        padding-left:1.5rem;
+        padding-right: 0rem;
+    }
+    
+    #analysis-form form{
+        padding-top:5rem;
+        margin-right:2rem;
+    }
+    
+    #analysis-form form input {
+        width:22rem;
+    }
+    
+    #analysis-form form button {
+        width:22rem;
+    }
+    
+    #headphones{
+        /* margin-right:0rem; */
+        padding-left: 0rem;
+    }
+
+    #headphones img{
+        width:350px;
+    }
+}
